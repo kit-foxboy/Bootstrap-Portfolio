@@ -5,56 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>About Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class="nav-bar">
-            <h1>Geoff Lambert</h1>
-            <ul>
-                <li><a href="index.html">About</a></li> |
-                <li><a href="portfolio.html">Portfolio</a></li> |
-                <li><a href="contact.html">Contact</a></li>
+    <nav class="navbar navbar-light navbar-expand-sm py-0">
+        <h1 class="navbar-brand p-3 ml-0 my-0">Geoff Lambert</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
 
-    <div id="content-container">
-        <div id="content">
-            <h2>About Me</h2>
-            <hr>
-            
-            <div id="text-body">
+    <div class="container-fluid mt-4 px-4" id="content-container">
+        <div class="row mx-auto">
+            <div class="col-lg-12 mt-4 px-0">
+                <h2>About Me</h2>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-4">
+            <div class="col-lg-3 col-sm-12 col-12">
                 <div class="profile-image">
-                    <img src="assets/images/gThumbnail.jpg" width="150px" alt="Geoff Lambert thumbnail" />
+                    <img class="img-fluid" src="assets/images/gThumbnail.jpg" alt="Geoff Lambert thumbnail" />
                 </div>
-    
+            </div>
+            <div class="col-lg-9">
                 <p>
                     My name is Geoff. I'm a software developer from Utah with a deep passion for my profession.
                     I've been working as a full (LAMP) stack developer for 5 years and most of my knowledge leans towards OOP with PHP and MySQL. I'm currently enrolled in a coding bootcamp to fill the gaps in my exisiting knowledge and to learn other modern stacks like MERN. 
                     Abundant opportunities to learn and grow is one of the best parts of software development.
                 </p>
-                <br>
-
                 <p>
                     I'm dying to get into mobile apps and indie games on my own clock and with time, savings and study. I frimly beleive that I have some amazing ideas. 
                     Fullstack knowlegde is thus essential to my personal and professional life.
                 </p>
-                <br>
-
-                <P>
+                <p>
                     I have an adopted family and a birth family, both of which I love with all that I am. I'm a really big, scruffy guy and my friends say that I'm a gentle giant. Philosophies I beleive in the most are diversity of thought and compassionate humanism.
                     I'm raising a pet macaw and training her as best I can, but she is an extremely bold and willful animal. We have fun.
                     My favorite things are: playing games of all sorts, building models, swimming, traveling and tinkering with new ideas for games and apps. 
-                </P>
+                </p>
             </div>
         </div>
     </div>
 
-    <footer>
-        <p>Copyright @</p>
+    <footer class="fixed-bottom">
+        <p>Copyright</p>
     </footer>
 </body>
 </html>
