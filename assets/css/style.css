@@ -45,3 +45,8 @@ footer {
 .profile-image {
     text-align: center;
 }
+
+.card {
+    max-width: 28rem;
+    margin-bottom: 1rem;
+}
