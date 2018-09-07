@@ -36,7 +36,7 @@ footer {
 }
 
 #content-container {
-    max-width: 960px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
@@ -49,4 +49,8 @@ footer {
 .card {
     max-width: 28rem;
     margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: teal;
 }
