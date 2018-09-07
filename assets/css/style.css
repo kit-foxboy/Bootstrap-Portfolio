@@ -51,6 +51,15 @@ footer {
     margin-bottom: 1rem;
 }
 
+.card .card-body {
+    color: white;
+    background-color: teal;
+}
+
+.card .card-body .card-text {
+    text-align: center;
+}
+
 .btn-primary {
     background-color: teal;
 }
