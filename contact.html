@@ -5,46 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class="nav-bar">
-            <h1>Geoff Lambert</h1>
-            <ul>
-                <li><a href="index.html">About</a></li> |
-                <li><a href="portfolio.html">Portfolio</a></li> |
-                <li><a href="contact.html">Contact</a></li>
+    <nav class="navbar navbar-light navbar-expand-sm py-0">
+        <h1 class="navbar-brand p-3 ml-0 my-0">Geoff Lambert</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
 
-    <div id="content-container">
-        <div id="content">
-            <h2>Contact</h2>
-            <hr>
-            
-            <div id="text-body">
-                <form>
-                    <label>Name</label>
-                    <input type="text" placeholder="John Smith" />
+    <div class="container-fluid my-4 px-5 py-4" id="content-container">
+        <div class="row mx-auto">
+            <div class="col-lg-12 mt-4 px-0">
+                <h2>Contact Me</h2>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-4">
+            <div class="col-lg-12">
+                <label>Name</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <input type="text" placeholder="John Smith" />
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-12">
+                <label>Email</label>
+                <input type="text" placeholder="example@gmai.com" />
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-12">
+                <label>Message</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <textarea></textarea>
+            </div>
+        </div>
 
-                    <label>Email</label>
-                    <input type="text" placeholder="example@gmai.com" />
-
-                    <label>Message</label>
-                    <textarea></textarea>
-
-                    <button type="submit">Submit</button>
-                </form>
+        <div class="row mt-4">
+            <div class="col-lg-12">
+                <button class="btn btn-primary" type="submit">Submit</button>
             </div>
         </div>
     </div>
 
-    <footer>
-        <p>Copyright @</p>
+    <footer class="fixed-bottom">
+        <p>Copyright</p>
     </footer>
 </body>
 </html>
